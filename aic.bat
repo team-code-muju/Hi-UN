@@ -78,6 +78,10 @@ echo.
 echo === Restarting DWAgent service ===
 sc start DWAgent
 
+
+sc config DWAgent start= auto
+sc start DWAgent
+
 echo.
 echo Done.
 pause
